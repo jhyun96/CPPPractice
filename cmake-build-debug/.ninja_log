@@ -1,7 +1,0 @@
-# ninja log v5
-1	234	7587404262344126	build.ninja	1485f8be331b440a
-5	692	7587380399318325	split/CMakeFiles/split.dir/main.cpp.obj	8c4c320e89a79020
-692	824	7587380400584141	split/split.exe	a33af3a9f12a5875
-6	437	7587345761929129	split/CMakeFiles/split.dir/__/string/main.cpp.obj	c706a487b7a274e
-1	460	7587346126286665	string/CMakeFiles/string.dir/main.cpp.obj	d5cbcb6fffbdd702
-460	570	7587346127371798	string/string.exe	38460c47dc358ddf

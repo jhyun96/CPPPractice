@@ -1,8 +1,0 @@
-C:/jhyun/CLionProjects/CPPPractice/cmake-build-debug/CMakeFiles/edit_cache.dir
-C:/jhyun/CLionProjects/CPPPractice/cmake-build-debug/CMakeFiles/rebuild_cache.dir
-C:/jhyun/CLionProjects/CPPPractice/cmake-build-debug/split/CMakeFiles/split.dir
-C:/jhyun/CLionProjects/CPPPractice/cmake-build-debug/split/CMakeFiles/edit_cache.dir
-C:/jhyun/CLionProjects/CPPPractice/cmake-build-debug/split/CMakeFiles/rebuild_cache.dir
-C:/jhyun/CLionProjects/CPPPractice/cmake-build-debug/string/CMakeFiles/string.dir
-C:/jhyun/CLionProjects/CPPPractice/cmake-build-debug/string/CMakeFiles/edit_cache.dir
-C:/jhyun/CLionProjects/CPPPractice/cmake-build-debug/string/CMakeFiles/rebuild_cache.dir

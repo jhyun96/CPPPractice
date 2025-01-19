@@ -25,10 +25,10 @@ vector<string> splitFast(const string& input, string delimiter){
     cout << "start : " << start << "\n";
     cout << "end : " << end << "\n";
 
-    while(end != string::npos){
-        ret.push_back(input.substr(start, end - start));
-        start = end + delimiter.size();
-        end = input.find(delimiter, start);
+    while(end != string::npos){ // end가 없을 때까지 반복
+        ret.push_back(input.substr(start, end - start)); // start 부터 end 이전까지를 vector에 추가
+        start = end + delimiter.size(); // start를 delimiter 다음 위치로 변경
+        end = input.find(delimiter, start); // 새로운 start 위치에서 delimiter를 찾음
         cout << "start2 : " << start << "\n";
         cout << "end2 : " << end << "\n";
     }

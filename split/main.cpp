@@ -17,10 +17,30 @@ vector<string> split(string input, string delimiter){
     return ret;
 }
 
+vector<string> splitFast(const string& input, string delimiter){
+    vector<string> ret;
+    auto start = 0;
+    auto end = input.find(delimiter);
+
+    cout << "start : " << start << "\n";
+    cout << "end : " << end << "\n";
+
+    while(end != string::npos){
+        ret.push_back(input.substr(start, end - start));
+        start = end + delimiter.size();
+        end = input.find(delimiter, start);
+        cout << "start2 : " << start << "\n";
+        cout << "end2 : " << end << "\n";
+    }
+
+    ret.push_back(input.substr(start));
+    return ret;
+}
+
 int main() {
     string a = "Hello My Name Is Jhyun";
     string b = " ";
-    vector<string> c = split(a,b);
+    vector<string> c = splitFast(a,b);
     for(string d : c) cout << d << "\n";
     return 0;
 }
